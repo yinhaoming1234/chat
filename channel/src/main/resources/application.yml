@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Yin757787439
+    url: jdbc:mysql://localhost:33006/chatai?useUnicode=true&characterEncoding=utf-8&useSSL=false
