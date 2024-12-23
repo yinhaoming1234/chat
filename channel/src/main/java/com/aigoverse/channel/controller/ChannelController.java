@@ -30,6 +30,10 @@ public class ChannelController {
     public Result<ChannelVO> update(@PathVariable Long id, @RequestBody ChannelVO channelVO) {
         return Result.success(channelService.update(id, channelVO));
     }
+    @PostMapping("/delete/{id}")
+    public Result<Boolean> delete(@PathVariable Long id) {
+        return Result.success();
+    }
 
 
 
